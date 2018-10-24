@@ -5,7 +5,7 @@ require File.join(File.dirname(__FILE__), '..', 'app.rb')
 require 'capybara'
 require 'capybara/rspec'
 require 'rspec'
-require_relative './reset_test_table'
+require_relative './database_helpers'
 
 Capybara.app = BookmarkManager
  RSpec.configure do |config|
